@@ -1,6 +1,6 @@
 这个项目是由一个14岁（在发起时）的孩子发起的。
 
-意在让所有人都用很好的使用系统指令，这是一个系统指令的图形化界面
+意在让所有人都能充分利用系统命令，同时也用自己制作自动化脚本，节省大量时间。这是一个系统指令的图形化界面
 
 希望成年人也能为我们提供帮助，感谢~
 
@@ -14,9 +14,9 @@ lib是存放已经打包好的jar包
 
 The project was started by a 14-year-old (at the time of the launch).
 
-Designed to allow everyone to use system commands well, this is a 
-
-graphical interface for system commands
+The idea is to allow everyone to take full advantage of system
+commands, while also saving a lot of time by creating their own
+automation scripts.This is a graphical interface for system instructions
 
 Hope adults can also help us, thanks ~
 
