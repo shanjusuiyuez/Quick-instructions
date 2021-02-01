@@ -4,7 +4,7 @@
 
 src是存放源代码
 
-lib是存放已经打包好的jar包。
+lib是存放已经打包好的包。
 
 感谢所有为此项目提供帮助的人。
 
@@ -16,7 +16,7 @@ The idea is to allow everyone to take full advantage of system commands while al
 
 SRC is the source code
 
-A lib is a jar that holds a package that is already packaged
+A lib is a holds a package that is already packaged
 
 Thank you to all who helped with this project.
 
