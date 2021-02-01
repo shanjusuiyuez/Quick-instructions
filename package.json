@@ -1,0 +1,11 @@
+{
+    "publish": [
+        {
+            "provider": "Quick instructions",
+            "url": "https://github.com/shanjusuiyuez/Quick-instructions/releases"
+        }
+    ],
+    "devDependencies": {
+        "@types/node": "^14.14.22"
+    }
+}
