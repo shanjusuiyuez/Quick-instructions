@@ -9,12 +9,12 @@ function shutdown(shut_time,_bool){
     run(massage,_bool);
 }
 function start(software_name,_bool){
-    massage = software_name;
-    _bool = "y";
+    massage = software_name; 
     run(massage,_bool);
 }
 function cls(_bool){
     massage = "cls";
+    _bool = "y";
     run(massage,_bool);
 }
 function ping(website,_bool){
