@@ -3,21 +3,24 @@
 //shutdown定时关机的实现
 //cls清理控制窗口的信息,所以_bool设置为y
 //ping还要我提醒？
-var massage :string;
-function shutdown(shut_time,_bool){
-    massage = "at"+shut_time+"Shutdown -s";
-    run(massage,_bool);
+import { runcmd } from "./runcmd";
+
+var massage: string;
+function shutdown( shut_time: string, inbool: string) {
+    massage = "at" + shut_time + "Shutdown -s";
+    runcmd( massage,inbool);
 }
-function start(software_name,_bool){
-    massage = software_name; 
-    run(massage,_bool);
+function start(software_name: string, inbool: string) {
+    massage = software_name;
+    runcmd(massage,inbool);
 }
-function cls(_bool){
+function cls(inbool: string) {
     massage = "cls";
-    _bool = "y";
-    run(massage,_bool);
+    inbool = "y";
+    runcmd(massage,inbool);
 }
-function ping(website,_bool){
-    massage = "ping"+website;
-    run(massage,_bool);
+function ping(website:string, inbool:string) {
+    massage = "ping " + website;
+    runcmd(massage ,inbool);
 }
+    export{ shutdown , start, cls, ping};

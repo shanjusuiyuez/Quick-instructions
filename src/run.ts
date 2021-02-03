@@ -1,13 +1,14 @@
-var _bool :string;
-function run(_cmd_instructions,_bool){
+export function runcmd({ _cmd_instructions, _bool }: { _cmd_instructions: string; _bool: string; }){
+    var cmdstr :string;
     var cmd = new ActiveXObject("powershell");
     //如果_bool是以下情况则隐藏系统窗口返回执行信息
     if (_bool == "yes" || _bool == "y" || _bool == "Yes"){
-        var cmdstr = "cmd /c " + _cmd_instructions + "> return.txt";
+        cmdstr = "cmd /c " + _cmd_instructions + "> return.txt";
+        cmd.run(cmdstr);
     }
     //如果_bool是以下情况则隐藏系统窗口并执行命令
     else if (_bool == "no" || _bool == "n" || _bool == "No"){
-        var cmdstr = "cmd /c " + _cmd_instructions ;
+        cmdstr = "cmd /c " + _cmd_instructions ;
+        cmd.run(cmdstr);
     }
-    cmd.run(cmdstr)
 }
