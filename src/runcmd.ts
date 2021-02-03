@@ -14,4 +14,4 @@ function runcmd (_cmd_instructions: string, _bool: string) {
         cmd();
     }
 }
-export{runcmd}
+export{runcmd};

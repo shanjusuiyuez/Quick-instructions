@@ -23,4 +23,4 @@ function ping(website:string, inbool:string) {
     massage = "ping " + website;
     runcmd(massage ,inbool);
 }
-    export{ shutdown , start, cls, ping};
+export{ shutdown , start, cls, ping};
